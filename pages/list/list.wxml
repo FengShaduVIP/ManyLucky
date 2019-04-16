@@ -5,7 +5,6 @@
       <view bindtap="tabSwitch" class="question_tab {{tab_index==2?'question_tab_selected':''}}" data-flg="2">个人小决定</view>
    </view>
    <view class="question_list_box">
-
       <!-- 热门小决定 -->
       <view class="official_question_list_box" style="display:{{tab_index=='1'?'block':'none'}};">
          <view class="official_question_list_cell question_list_cell" wx:for="{{xiaojueding}}" wx:key="unique">
@@ -69,7 +68,6 @@
             </view>
          </view>
       </view>
-
 
    </view>
 </view>

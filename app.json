@@ -4,7 +4,7 @@
     "pages/list/list",
     "pages/set/set",
     "pages/edit/edit",
-    "pages/ceshi/ceshi"
+    "pages/card/card"
   ],
   "window": {
     "backgroundTextStyle": "light",
