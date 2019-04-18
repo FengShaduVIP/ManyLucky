@@ -6,18 +6,8 @@
     font-weight: 900;
 }
 
-.daily-header button {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0,-50%);
-    font-size: 32rpx;
-    color: #666;
-    font-weight: 400;
-}
-
 .daily-item {
-    margin: 3px;
+    margin: 5rpx 15rpx;
     border:2px solid rgb(243, 240, 240);
     position: relative;
     background: #fff;
@@ -27,9 +17,9 @@
 
 .daily-img {
   padding: 5rpx 0 0 0;
-    width: 100%;
-    height: 360rpx;
-    border-radius: 10rpx 10rpx 0 0;
+  width: 100%;
+  height: 360rpx;
+  border-radius: 10rpx 10rpx 0 0;
 }
 
 .daily-body {
@@ -37,22 +27,28 @@
 }
 
 .daily-title {
-    font-size: 34rpx;
-    color: #333;
-    line-height: 1.5;
-    word-break: break-all;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+  font-size: 34rpx;
+  color: #333;
+  line-height: 1.5;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .daily-desc {
-    display: flex;
-    color: #999;
-    font-size: 28rpx;
-    padding: 20rpx 0 8rpx;
+  display: flex;
+  color: #999;
+  font-size: 25rpx;
+  padding: 15rpx 0 8rpx;
+}
+.daily-view {
+  display: flex;
+  color: #999;
+  font-size: 28rpx;
+  padding: 15rpx 0 8rpx;
 }
 
 .daily-sponsor {
@@ -71,123 +67,6 @@
     border-radius: 25rpx 0 0 25rpx;
 }
 
-.daily-links {
-    position: relative;
-    display: flex;
-    align-items: center;
-    color: #666;
-    font-size: 26rpx;
-    padding: 30rpx 0 60rpx;
-}
-
-.daily-link-left {
-    width: 48%;
-    text-align: right;
-}
-
-.daily-link-center {
-    padding: 0 30rpx;
-}
-
-.daily-link-right {
-    width: 48%;
-    text-align: left;
-}
-
-.daily-join {
-    display: flex;
-    align-items: center;
-    color: #00acff;
-    padding-right: 20rpx;
-}
-
-.daily-joined {
-    display: flex;
-    align-items: center;
-    color: #02be0b;
-    padding-right: 20rpx;
-}
-
-.daily-join icon,.daily-joined icon {
-    margin-right: 10rpx;
-}
-
-.is-end-img {
-    position: absolute;
-    left: 50%;
-    top: 100rpx;
-    z-index: 10;
-    transform: translate(-50%,0);
-    width: 208rpx;
-    height: 208rpx;
-}
-
-.is-end {
-    background: #999;
-}
-
-.btn-contact {
-    position: absolute;
-    left: 8%;
-    top: 10rpx;
-    width: 40%;
-    height: 80rpx;
-    opacity: 0;
-}
-
-.btn-subscrible {
-    position: absolute;
-    right: 30rpx;
-    top: 0rpx;
-    display: flex;
-}
-
-.btn-subscrible image {
-    width: 32rpx;
-    height: 32rpx;
-    margin-right: 10rpx;
-}
-
-.subscribe-tips-box {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 20;
-    width: 100%;
-    height: 100%;
-}
-
-.subscribe-tips-box button {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-}
-
-.tips-text {
-    position: absolute;
-    right: 30rpx;
-    top: 100rpx;
-    z-index: 21;
-    height: 96rpx;
-    line-height: 96rpx;
-    padding: 0 20rpx;
-    border-radius: 10rpx;
-    color: #fff;
-    font-size: 26rpx;
-    background: rgba(32,33,38,.9);
-}
-
-.tips-text::after {
-    content: "";
-    position: absolute;
-    right: 40rpx;
-    top: -22rpx;
-    width: 0;
-    height: 0;
-    border: 12rpx solid transparent;
-    border-bottom: 12rpx solid rgba(32,33,38,.9);
-}
 .question_btn_icon {
     width: 20px;
     height: 20px;

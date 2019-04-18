@@ -1,37 +1,36 @@
 <!--pages/card/card.wxml-->
 <view>
-<button class="daily-item"  formType="submit">
+  <view class="daily-item">
     <image class="daily-img" lazyLoad="true" mode="aspectFill" src="https://cdn-xcxcustom.weiyoubot.cn/20180116/392dffeee3c320a1ab8e5a15d743522a.jpg"></image>
-    <view class="daily-sponsor"> 赞助 </view>
+    <view class="daily-sponsor"> 微多多 </view>
     <view class="daily-body">
-        <view class="daily-title">
-          奖品：<label >MAC口红、华为P20、现金红包888、苹果手机、MAC口红、华为P20、现金红包888、苹果手机</label>
-        </view>
-        <view class="daily-desc">
-          <view class="official_question_btn_box question_btn_box" style="display:{{index==item.num?'flex':'none'}};">
-            <image class="btn_boder_right question_btn_icon" mode="scaleToFill" src="https://gamesdata.oss-cn-hangzhou.aliyuncs.com/xiaojueding/icon_list_index_60.png"></image>
-            <view class="btn_boder_right question_btn_title">转一圈</view>
-            <image class="question_btn_icon" mode="scaleToFill" src="https://gamesdata.oss-cn-hangzhou.aliyuncs.com/xiaojueding/icon_list_revise_60.png"></image>
-            <view class="btn_boder_right question_btn_title">编辑</view>
-            <image class="question_btn_icon" mode="scaleToFill" src="https://gamesdata.oss-cn-hangzhou.aliyuncs.com/xiaojueding/icon_list_keep_60.png"></image>
-            <view class="btn_boder_right question_btn_title">收藏</view>
-            <image class="question_btn_icon" mode="scaleToFill" src="https://gamesdata.oss-cn-hangzhou.aliyuncs.com/xiaojueding/icon_list_share_60.png"></image>
-            <view class="btn_boder_right question_btn_title">分享</view>
-          </view>
-        </view>
+      <view class="daily-title">
+        <view>奖品一：华为P30 ×1</view>
+        <view>奖品二：圣罗兰口红 ×99</view>
+      </view>
+      <view class="daily-desc">
+        <view>05月2日 13:00 结束</view>
+      </view>
+      <view class="daily-view">
+        <view>参与条件：消费满99元</view>
+      </view>
     </view>
-</button>
-<button class="daily-item"  formType="submit">
+  </view>
+  <view class="daily-item">
     <image class="daily-img" lazyLoad="true" mode="aspectFill" src="https://cdn-xcxcustom.weiyoubot.cn/20180116/392dffeee3c320a1ab8e5a15d743522a.jpg"></image>
-    <image class="is-end-img" src="/images/ic_over.png" ></image>
-    <view class="daily-sponsor"> 赞助 </view>
+    <view class="daily-sponsor"> 微多多 </view>
     <view class="daily-body">
-        <view class="daily-title">
-          奖品：<label >MAC口红、华为P20、现金红包888、苹果手机</label>
-        </view>
-        <view class="daily-desc">
-            <view class="daily-date">手动开奖</view>
-        </view>
+      <view class="daily-title">
+        <view>奖品一：华为P30 ×1</view>
+        <view>奖品二：圣罗兰口红 ×99</view>
+      </view>
+      <view class="daily-desc">
+        <view>05月2日 13:00 结束</view>
+      </view>
+      <view class="daily-view">
+        <view>参与条件：消费满99元</view>
+      </view>
     </view>
-</button>
+  </view>
+  
 </view>
