@@ -1,0 +1,8 @@
+/* pages/cardDetail/cardDetail.wxss */
+.img-view{
+  height: 360rpx;
+}
+.slide-image{
+  width: 100%;
+}
+

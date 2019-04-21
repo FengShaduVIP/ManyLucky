@@ -7,7 +7,7 @@ Page({
    data: {
       xiaojueding: xiaojueding,
       myxiaojueding: [],
-      tab_index: 2,
+      tab_index: 1,
    },
 
    //收藏
@@ -158,8 +158,8 @@ Page({
       app.globalData.defaultJueding = true;
       id = id == 0 ? '00' : id;
       wx.setStorageSync('switchTab', id);
-      wx.switchTab({
-         url: '../index/index'
+     wx.navigateTo({
+        url: '../turntable/turntable'
       })
    },
 
@@ -168,8 +168,8 @@ Page({
       var that = this, id = e.currentTarget.dataset.id;
       app.globalData.myJueding = true;
       wx.setStorageSync('switchTab', id);
-      wx.switchTab({
-         url: '../index/index'
+     wx.navigateTo({
+        url: '../turntable/turntable'
       })
    },
 
@@ -196,7 +196,7 @@ Page({
 
       return {
          title: util.isNull(app.globalData.shareTitle) ? ("一起来玩'" + app.globalData.title + "'吧") : app.globalData.shareTitle,
-         path: '/pages/index/index',
+        path: '/pages/turntable/turntable',
          success: function (res) {
             console.log('成功进入分享==========', res);
 

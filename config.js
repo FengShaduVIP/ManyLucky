@@ -1,3 +1,3 @@
 module.exports = {
-   // appId: 'wxc4552ff749a367fa',
+  appId: 'wx1c1ff67f48284eb2',
 }

@@ -4,6 +4,7 @@
     "pages/list/list",
     "pages/set/set",
     "pages/edit/edit",
+    "pages/cardDetail/cardDetail",
     "pages/turntable/turntable"
   ],
   "window": {

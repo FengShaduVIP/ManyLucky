@@ -1,6 +1,6 @@
 <!--pages/card/card.wxml-->
 
-<view class="daily-item" wx:for="{{cardList}}" wx:key="unique">
+<view class="daily-item" wx:for="{{cardList}}" wx:key="unique" data-cardID="{{item.cardID}}" bindtap='showCardDetail'>
   <image class="daily-img" lazyLoad="true" mode="aspectFill" src="{{item.imgUrl?item.imgUrl:'https://cdn-xcxcustom.weiyoubot.cn/20180116/392dffeee3c320a1ab8e5a15d743522a.jpg'}}"></image>
   <view class="daily-sponsor"> {{item.title}} </view>
   <view class="daily-body">

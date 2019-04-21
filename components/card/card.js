@@ -45,16 +45,10 @@ Component({
      * 公有方法
      */
 
-    //隐藏弹框
-    hideDialog() {
-      this.setData({
-        isShow: !this.data.isShow
-      })
-    },
-    //展示弹框
-    showDialog() {
-      this.setData({
-        isShow: !this.data.isShow
+    showCardDetail(e){
+      var cardID = e.currentTarget.dataset.cardID;
+      wx.navigateTo({
+        url: '../../pages/cardDetail/cardDetail?flg=2',
       })
     },
 
