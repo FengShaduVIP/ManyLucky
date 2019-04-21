@@ -1,0 +1,18 @@
+<!--pages/card/card.wxml-->
+
+<view class="daily-item" wx:for="{{cardList}}" wx:key="unique">
+  <image class="daily-img" lazyLoad="true" mode="aspectFill" src="{{item.imgUrl?item.imgUrl:'https://cdn-xcxcustom.weiyoubot.cn/20180116/392dffeee3c320a1ab8e5a15d743522a.jpg'}}"></image>
+  <view class="daily-sponsor"> {{item.title}} </view>
+  <view class="daily-body">
+    <view class="daily-title">
+      <view wx:for="{{item.awardList}}" wx:key="{{item.index}}" wx:if="{{item.index=='1'}}">奖品一：{{item.awardName}} ×{{item.num}}</view>
+      <view wx:for="{{item.awardList}}" wx:key="{{item.index}}" wx:if="{{item.index=='2'}}">奖品二：{{item.awardName}} ×{{item.num}}</view>
+    </view>
+    <view class="daily-desc">
+      <view>{{item.endTime}} 结束</view>
+    </view>
+    <view class="daily-view">
+      <view>参与条件：{{item.need}}</view>
+    </view>
+  </view>
+</view>

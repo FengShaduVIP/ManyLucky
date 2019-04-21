@@ -4,7 +4,7 @@
     "pages/list/list",
     "pages/set/set",
     "pages/edit/edit",
-    "pages/card/card"
+    "pages/turntable/turntable"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,14 +23,14 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/icon_tab_index_81.png",
-        "selectedIconPath": "images/icon_tab_index_select_81.png"
+        "iconPath": "images/icon_tab_list_81.png",
+        "selectedIconPath": "images/icon_tab_list_select_81.png"
       },
       {
         "pagePath": "pages/list/list",
-        "text": "创建小决定",
-        "iconPath": "images/icon_tab_list_81.png",
-        "selectedIconPath": "images/icon_tab_list_select_81.png"
+        "text": "小决定转盘",
+        "iconPath": "images/icon_tab_index_81.png",
+        "selectedIconPath": "images/icon_tab_index_select_81.png"
       },
       {
         "pagePath": "pages/set/set",
