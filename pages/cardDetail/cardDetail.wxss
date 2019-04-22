@@ -5,4 +5,21 @@
 .slide-image{
   width: 100%;
 }
-
+.placeholder{
+  height: 150rpx;
+  margin: 5px;
+  padding: 0 10px;
+  background-color: #EBEBEB;
+  line-height: 2.3em;
+  color: #cfcfcf;
+}
+.me-info_view{
+  width: 25%;
+  height: 150rpx;
+}
+.me__info__avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}

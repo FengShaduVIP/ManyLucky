@@ -1,5 +1,5 @@
 <!--pages/cardDetail/cardDetail.wxml-->
-<view class='detail-content'>
+<view class='page'>
   <swiper class="img-view" indicator-dots="true" autoplay="true" interval="3500" duration="1000">
     <block wx:for="{{picList}}" wx:key="index">
       <swiper-item>
@@ -8,4 +8,24 @@
       </swiper-item>   
     </block>  
   </swiper>
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">
+             <image src='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoicbQgd0e4lRAMxLMC45OQv9lOBc45YXV7onoACnnF0OaVUFo11jOkwS2vbfgo424OB0iaHxTlKG7Q/132' class='me__info__avatar'>
+          </image>
+          
+          <button class="weui-btn mini-btn" style='display: inline-block;' type="primary" size="mini">按钮</button>
+          
+        </view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+    </view>
+  </view>
+
+
 </view>
